@@ -26,10 +26,6 @@ void drawRipple() {
 }
 
 int main() {
-    while (1) {
-        drawRipple();
-        usleep(100000);  // Sleep for 100 ms
-        printf("\033[H\033[J"); // Clear the screen
-    }
+    drawRipple();
     return 0;
 }
