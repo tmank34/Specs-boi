@@ -3,7 +3,7 @@
 
 #define WIDTH 40
 #define HEIGHT 20
-
+void drawRipple();
 void drawRipple() {
     double centerX = WIDTH / 2.0;
     double centerY = HEIGHT / 2.0;
